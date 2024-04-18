@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Genesys upskill survey</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="skill.CSS" />
+  </head>
+  <body>
+    <h1 class="heading">Genesys upskill Survey form</h1>
+    <div class="wrapper">
+      <div class="forms">
+        <form action="">
+          <div class="name">
+            <p class="Name"><strong>Name</strong></p>
+            <div class="input-area">
+              <input type="text" id="name" placeholder="Enter your name" />
+            </div>
+          </div>
+          <div class="email">
+            <p class="Email"><strong>Email address</strong></p>
+            <div class="input-area">
+              <input
+                type="email"
+                id="Email"
+                placeholder="Enter your email address"
+              />
+            </div>
+          </div>
+          <div class="age">
+            <p class="age"><strong>Age</strong></p>
+            <div class="input-area">
+              <input type="number" id="" placeholder="age" />
+            </div>
+          </div>
+          <p class="options">
+            <strong>Which option best describes you?</strong>
+          </p>
+          <select name="student">
+            <option value="self employed">Self-employeed</option>
+            <option value="graduate">Graduate</option>
+            <option value="business owner">Business owner</option>
+            <option value="tech ethusiast">Tech ethusiast</option>
+            <option value="stayhomewife">Stay at home wife</option>
+            <option value="remote worker">remote worker</option>
+            <option value="student" selected>student</option>
+          </select>
+
+          <p class="radio">
+            <strong>
+              would you recommend Genesys upskill program to your friends
+              ?</strong
+            >
+          </p>
+          <div>
+            <input
+              type="radio"
+              id="yes"
+              name="would you recommend Genesys upskill program to your friends"
+              value="yes"
+            />
+            <label for="yes">Yes</label>
+          </div>
+          <div>
+            <input
+              type="radio"
+              id="no"
+              name="would you recommend Genesys upskill program to your friends"
+              value="no"
+            />
+            <label for="no">No</label>
+          </div>
+          <div>
+            <input
+              type="radio"
+              id="maybe"
+              name="would you recommend Genesys
+            upskill program to your friends"
+              value="maybe"
+            />
+            <label for="maybe">Maybe</label>
+          </div>
+
+          <p>
+            <strong>
+              Languages and frameworeks known(check all that apply)</strong
+            >
+          </p>
+          <div>
+            <input type="checkbox" id="c" name="Languange" value="c" />
+            <label for="c">C</label>
+          </div>
+          <div>
+            <input type="checkbox" id="c++" name="Languange" value="c++" />
+            <label for="c++">C++</label>
+          </div>
+          <div>
+            <input type="checkbox" id="java" name="Languange" value="java" />
+            <label for="java">Java</label>
+          </div>
+          <div>
+            <input
+              type="checkbox"
+              id="phyton"
+              name="Languange"
+              value="phyton"
+            />
+            <label for="phyton">Python</label>
+          </div>
+          <div>
+            <input
+              type="checkbox"
+              id="javascript"
+              name="Languange"
+              value="javascript"
+            />
+            <label for="javascript">javascript</label>
+            <div>
+              <input
+                type="checkbox"
+                id="react"
+                name="Languange"
+                value="react"
+              />
+              <label for="react">React</label>
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                id="angular"
+                name="Languange"
+                value="angular"
+              />
+              <label for="angular">Angular</label>
+              <div>
+                <input
+                  type="checkbox"
+                  id="spring"
+                  name="Languange"
+                  value="spring"
+                />
+                <label for="spring">spring</label>
+              </div>
+            </div>
+          </div>
+          <p><strong>Any comments or suggestions</strong></p>
+          <textarea
+            name=" comments or suggestions"
+            id="comments or suggestions"
+            cols="70"
+            rows="5"
+          ></textarea>
+          <br />
+          <br />
+          <button class="sub" type="submit">submit</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
